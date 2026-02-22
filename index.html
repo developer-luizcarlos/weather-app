@@ -9,7 +9,33 @@
     />
     <link rel="icon" href="./assets/images/favicon-32x32.png" />
     <link rel="stylesheet" href="./src/styles/main.css" />
+    <script defer src="./src/scripts/main.js"></script>
     <title>Weather App</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <header>
+        <img src="assets/images/logo.svg" alt="Weather now" id="logo" />
+        <div role="listbox" id="custom-select">
+          <div
+            class="custom-select-option"
+            aria-label="Select a unit to display results. The default unit is Celsius."
+          >
+            <img
+              src="./assets/images/icon-units.svg"
+              alt=""
+              aria-hidden="true"
+            />
+            <span>Units</span>
+            <img
+              id="dropdown-icon"
+              src="./assets/images/icon-dropdown.svg"
+              alt=""
+              aria-hidden="true"
+            />
+          </div>
+        </div>
+      </header>
+    </div>
+  </body>
 </html>
